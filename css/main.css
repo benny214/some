@@ -50,14 +50,12 @@
 }
 
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
 }
 
 body {
   font-family: 'texgyreherosregular', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
 }
 
 h1,
@@ -392,6 +390,10 @@ input, button {
   clear: both;
 }
 
+.testimonials__list {
+  position: relative;
+}
+
 .testimonials__item {
   width: 53.84615%;
   margin-top: 190px;
@@ -708,6 +710,7 @@ input, button {
   background: url("../img/left__arrow-ico.png");
   position: absolute;
   top: 56%;
+  left: 0;
 }
 
 .owl-next {
@@ -722,6 +725,7 @@ input, button {
   background: url("../img/right__arrow-ico.png");
   position: absolute;
   top: 56%;
+  right: 0;
 }
 
 .exhibition__top {

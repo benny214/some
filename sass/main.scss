@@ -56,14 +56,12 @@ $browser-context: 16;
 }
 
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
 }
 
 body{
   font-family: 'texgyreherosregular', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
 }
 
 h1,
@@ -356,7 +354,10 @@ input, button {
   background: url('../img/rewiew-bg.jpg');
   background-size: cover;
   @include clearfix;
+}
 
+.testimonials__list{
+  position: relative;
 }
 
 .testimonials__item{
@@ -444,6 +445,7 @@ input, button {
     background: url('../img/left__arrow-ico.png');
     position: absolute;
     top: 56%;
+    left: 0;
   }
 }
 
@@ -457,6 +459,7 @@ input, button {
     background: url('../img/right__arrow-ico.png');
     position: absolute;
     top: 56%;
+    right:0;
   }
 }
 
