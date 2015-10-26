@@ -193,7 +193,10 @@ input, button {
 .intro__left-col{
   float: left;
   margin-left: 7.6%;
-  margin-bottom: -5.7%;
+  // margin-bottom: -5.7%;
+  & img{
+    position: absolute;
+  }
 }
 
 .email{
@@ -475,17 +478,16 @@ input, button {
   margin-left: -129px;
   text-align: center;
   width: 61%;
-  &:before{
-    content: '';
-    @include sprite;
-    width: 44px;
-    height: 31px;
-    background-position: -2px -34px;
-    margin-top: 67px;
-    margin-left: 163px;
-    margin-bottom: 44px;
-  }
 }
+span.comma{
+  @include sprite;
+  width: 44px;
+  height: 31px;
+  background-position: -2px -34px;
+  margin-top: 67px;
+  margin-left: -109px;
+  margin-bottom: 44px;
+  }
 
 @import 'owl_carousel.scss';
 

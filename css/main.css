@@ -199,7 +199,10 @@ input, button {
 .intro__left-col {
   float: left;
   margin-left: 7.6%;
-  margin-bottom: -5.7%;
+}
+
+.intro__left-col img {
+  position: absolute;
 }
 
 .email {
@@ -507,8 +510,7 @@ input, button {
   width: 61%;
 }
 
-.testimonials__review:before {
-  content: '';
+span.comma {
   display: inline-block;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -517,7 +519,7 @@ input, button {
   height: 31px;
   background-position: -2px -34px;
   margin-top: 67px;
-  margin-left: 163px;
+  margin-left: -109px;
   margin-bottom: 44px;
 }
 
